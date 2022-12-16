@@ -1,0 +1,267 @@
+.section-one-container {
+  height: 685px;
+  background-image: url("../images/secOneBgImg.png");
+  padding: 10px 0px;
+}
+
+.content {
+  background: linear-gradient(180deg, rgba(38, 38, 38, 0) 29.9%, #282620 100%);
+  border-radius: 342.5px;
+  height: 100%;
+  position: relative;
+}
+
+.auction-button {
+  position: absolute;
+  left: 120px;
+  top: 106px;
+  border: none;
+  color: #ffffff;
+  background: #6c2ad2;
+  border-radius: 5px;
+  padding: 10px 40px;
+  font-size: 20px;
+}
+
+.profile {
+  position: absolute;
+  right: 120px;
+  top: 110px;
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 33px 5px 5px 33px;
+  padding: 5px 65px 5px 5px;
+}
+
+.profile-detail {
+  padding: 0px 5px;
+}
+
+.profile-name {
+  font-size: 20px;
+  color: #6c2ad2;
+}
+
+.profile-image {
+  display: flex;
+}
+
+.home-location {
+  position: absolute;
+  color: #ffffff;
+  left: 85px;
+  top: 520px;
+}
+
+.home-type {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.home-address {
+  padding: 0px 8px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.home-area {
+  position: absolute;
+  color: #ffffff;
+  right: 85px;
+  top: 520px;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+
+.feature-icon {
+  background-color: rgba(108, 42, 210, 0.1);
+  border-radius: 5px;
+  padding: 3px;
+}
+.details {
+  display: flex;
+  gap: 20px;
+}
+.despiration-bg {
+  background: #f8f8f8;
+  border-radius: 10px;
+  flex-basis: 50%;
+  padding: 5px 20px;
+}
+
+.property-detail-container {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 30px 0px;
+}
+
+.property-detail {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 10px 0px;
+}
+
+.monthly-container {
+  display: flex;
+}
+
+.circle {
+  flex-basis: 40%;
+  /* position: relative;
+  width: 376.32px;
+  height: 376.32px;
+  z-index: -1; */
+}
+
+.yellowCircle {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.monthly {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 209.07px;
+  height: 209.07px;
+  border-radius: 50%;
+  opacity: 0.5;
+  border: 2px solid #454459;
+  background: #fafafa;
+  outline: 1px solid white;
+  offset: 5px;
+}
+
+.principle-first {
+  width: 33px;
+  height: 12px;
+
+  background: #fed26c;
+  border-radius: 1px;
+}
+.principle-second {
+  background: #70f07d;
+  border-radius: 1px;
+  width: 33px;
+  height: 12px;
+}
+.principle-third {
+  width: 33px;
+  height: 12px;
+  left: 777px;
+  top: 3533px;
+
+  background: #75cffd;
+  border-radius: 1px;
+}
+.principle-four {
+  width: 33px;
+  height: 12px;
+  left: 777px;
+  top: 3599px;
+
+  background: #fc64bf;
+  border-radius: 1px;
+}
+
+.taxAndInsDetails {
+  flex-basis: 60%;
+}
+.principle {
+  display: grid;
+  grid-template-columns: 20% 40% 40%;
+  padding: 10px 0px;
+}
+.degree-img {
+  width: 1314px;
+  height: 469px;
+  left: 176px;
+  top: 5339px;
+  border-radius: 10px;
+}
+
+.walk-score {
+  display: flex;
+  gap: 10px;
+}
+.walk-num {
+  background: #ffffff;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+.walk-content {
+  width: 67px;
+  height: 18px;
+  left: 185px;
+  top: 6064px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #c4c4c4;
+}
+.walker-one {
+  width: 215px;
+  height: 36px;
+  left: 286px;
+  top: 6015px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+.walker-subtitle {
+  width: 552px;
+  height: 30px;
+  left: 286px;
+  top: 6060px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #666666;
+}
+
+.total {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background: #fafafa;
+  border-radius: 8px;
+  grid-column-gap: 20px;
+}
+
+.total-amount {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 26px;
+}
+
+.dollar-symbol {
+  padding: 0px 10px;
+}
+
+.amount {
+  padding: 0px 10px;
+  border-left:1px solid gray ;
+}
